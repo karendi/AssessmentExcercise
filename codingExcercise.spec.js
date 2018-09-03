@@ -5,7 +5,11 @@ const convertNumberToWords = require('./codingExcercise');
 
 describe('The numbers are changed to words', ()=>{
     it('checks if a number has been provided', ()=>{
-        assert.equal(convertNumberToWords(), 'You have to provide a number');
+        assert.equal(convertNumberToWords(), 'You have to provide a digit');
+    });
+
+    it('checks if the character provided is a digit', ()=> {
+        assert.equal(convertNumberToWords('twenty'), 'You have to provide a digit');
     });
 
     it('can change 0 to zero', () => {

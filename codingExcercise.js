@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const changeNumberToWords = (number) => {
-    if(number !== undefined) {
+const changeNumberToWords = (number) => { 
+    if( number !== undefined && !isNaN(number)) {
         let string = number.toString();
         // check if the number is zero
         if (number === 0) {
@@ -33,7 +33,7 @@ const changeNumberToWords = (number) => {
             let chunk = parseInt(chunks[i]);
     
             if (chunk) {
-                
+
                 let ints = chunks[i].split('').reverse().map(parseFloat);
     
                 if (ints[1] === 1) {
@@ -62,9 +62,9 @@ const changeNumberToWords = (number) => {
     
         return words.reverse().join(' ');
 
-    }
+    } 
 
-    return "You have to provide a number";
+    return "You have to provide a digit";
 };
 
 module.exports = changeNumberToWords;
