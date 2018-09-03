@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const convertNumberToWords = require('./codingExcercise');
+const convertNumberToWords = require('./codingExercise');
 
 describe('The numbers are changed to words', ()=>{
     it('checks if a number has been provided', ()=>{
