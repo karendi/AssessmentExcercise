@@ -4,7 +4,7 @@
   "description": "a function that changes numbers to words",
   "main": "codingExcercise.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha codingExercise.spec.js"
   },
   "author": "Sharon Wanjiku Njihia",
   "license": "ISC",
