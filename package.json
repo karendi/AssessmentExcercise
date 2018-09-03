@@ -1,0 +1,15 @@
+{
+  "name": "assessmentexercise",
+  "version": "1.0.0",
+  "description": "a function that changes numbers to words",
+  "main": "codingExcercise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sharon Wanjiku Njihia",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
